@@ -5,12 +5,15 @@ program for the admin panel
 #include<stdio.h>
 #include<conio.h>
 #include<string.h>
+#incliude<graphics.h>
+#inlcude<dos.h>
+
 void main()
 {
  char id[5],ido[5]="gopal",pass[5]="oswal";
  int i,j;
  clrscr();
-
+  
  printf("\n\n\n\t\t\twelcome ");
  printf("\n\n\n\t\enter your id ");
  gets(id);
@@ -33,11 +36,10 @@ void main()
   }
   for(i=0;i<5;i++)
   {
-  if(pass[i]!=passo[i])
+  if(pass[i]!=passo[i]) 
  {
- printf("ewrong password");
+ printf("wrong password");
   break;
-  
   }
  getch();
 }
