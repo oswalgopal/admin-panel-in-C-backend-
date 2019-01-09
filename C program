@@ -1,4 +1,4 @@
-program for the admin panel 
+//program for the admin panel 
 
 
 
@@ -15,13 +15,13 @@ void main()
  clrscr();
   
  printf("\n\n\n\t\t\twelcome ");
- printf("\n\n\n\t\enter your id ");
+ printf("\n\n\n\t\enter your id ")
+ if(i>=4);
  gets(id);
  for(i=0;i<5;i++)
  {
  if(id[i]==ido[i])
  {   
- if(i>=4)
   {
   printf("enter your password");
   }
